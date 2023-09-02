@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\generics\bin\Debug\generics.exe.config
+D:\snehaRepo\.net core\generics\bin\Debug\generics.exe
+D:\snehaRepo\.net core\generics\bin\Debug\generics.pdb
+D:\snehaRepo\.net core\generics\obj\Debug\generics.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\generics\obj\Debug\generics.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\generics\obj\Debug\generics.exe
+D:\snehaRepo\.net core\generics\obj\Debug\generics.pdb

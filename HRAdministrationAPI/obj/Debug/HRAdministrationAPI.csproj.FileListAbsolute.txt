@@ -1,0 +1,6 @@
+D:\snehaRepo\.net core\HRAdministrationAPI\bin\Debug\HRAdministrationAPI.dll
+D:\snehaRepo\.net core\HRAdministrationAPI\bin\Debug\HRAdministrationAPI.pdb
+D:\snehaRepo\.net core\HRAdministrationAPI\obj\Debug\HRAdministrationAPI.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\HRAdministrationAPI\obj\Debug\HRAdministrationAPI.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\HRAdministrationAPI\obj\Debug\HRAdministrationAPI.dll
+D:\snehaRepo\.net core\HRAdministrationAPI\obj\Debug\HRAdministrationAPI.pdb

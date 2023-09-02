@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+D:\snehaRepo\.net core\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+D:\snehaRepo\.net core\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+D:\snehaRepo\.net core\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+D:\snehaRepo\.net core\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

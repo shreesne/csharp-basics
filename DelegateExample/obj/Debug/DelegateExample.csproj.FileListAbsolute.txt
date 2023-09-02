@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\DelegateExample\bin\Debug\DelegateExample.exe.config
+D:\snehaRepo\.net core\DelegateExample\bin\Debug\DelegateExample.exe
+D:\snehaRepo\.net core\DelegateExample\bin\Debug\DelegateExample.pdb
+D:\snehaRepo\.net core\DelegateExample\obj\Debug\DelegateExample.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\DelegateExample\obj\Debug\DelegateExample.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\DelegateExample\obj\Debug\DelegateExample.exe
+D:\snehaRepo\.net core\DelegateExample\obj\Debug\DelegateExample.pdb

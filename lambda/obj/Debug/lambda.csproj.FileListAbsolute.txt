@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\lambda\bin\Debug\lambda.exe.config
+D:\snehaRepo\.net core\lambda\bin\Debug\lambda.exe
+D:\snehaRepo\.net core\lambda\bin\Debug\lambda.pdb
+D:\snehaRepo\.net core\lambda\obj\Debug\lambda.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\lambda\obj\Debug\lambda.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\lambda\obj\Debug\lambda.exe
+D:\snehaRepo\.net core\lambda\obj\Debug\lambda.pdb

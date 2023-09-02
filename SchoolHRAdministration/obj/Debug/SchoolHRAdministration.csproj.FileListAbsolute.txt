@@ -1,0 +1,10 @@
+D:\snehaRepo\.net core\SchoolHRAdministration\bin\Debug\SchoolHRAdministration.exe.config
+D:\snehaRepo\.net core\SchoolHRAdministration\bin\Debug\SchoolHRAdministration.exe
+D:\snehaRepo\.net core\SchoolHRAdministration\bin\Debug\SchoolHRAdministration.pdb
+D:\snehaRepo\.net core\SchoolHRAdministration\bin\Debug\HRAdministrationAPI.dll
+D:\snehaRepo\.net core\SchoolHRAdministration\bin\Debug\HRAdministrationAPI.pdb
+D:\snehaRepo\.net core\SchoolHRAdministration\obj\Debug\SchoolHRAdministration.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\SchoolHRAdministration\obj\Debug\SchoolHRAdministration.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\SchoolHRAdministration\obj\Debug\SchoolHRAdministration.csproj.CopyComplete
+D:\snehaRepo\.net core\SchoolHRAdministration\obj\Debug\SchoolHRAdministration.exe
+D:\snehaRepo\.net core\SchoolHRAdministration\obj\Debug\SchoolHRAdministration.pdb

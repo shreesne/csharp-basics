@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\StaticClass\bin\Debug\StaticClass.exe.config
+D:\snehaRepo\.net core\StaticClass\bin\Debug\StaticClass.exe
+D:\snehaRepo\.net core\StaticClass\bin\Debug\StaticClass.pdb
+D:\snehaRepo\.net core\StaticClass\obj\Debug\StaticClass.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\StaticClass\obj\Debug\StaticClass.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\StaticClass\obj\Debug\StaticClass.exe
+D:\snehaRepo\.net core\StaticClass\obj\Debug\StaticClass.pdb

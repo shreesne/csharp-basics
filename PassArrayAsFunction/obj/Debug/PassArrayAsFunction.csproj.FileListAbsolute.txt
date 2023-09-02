@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\PassArrayAsFunction\bin\Debug\PassArrayAsFunction.exe.config
+D:\snehaRepo\.net core\PassArrayAsFunction\bin\Debug\PassArrayAsFunction.exe
+D:\snehaRepo\.net core\PassArrayAsFunction\bin\Debug\PassArrayAsFunction.pdb
+D:\snehaRepo\.net core\PassArrayAsFunction\obj\Debug\PassArrayAsFunction.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\PassArrayAsFunction\obj\Debug\PassArrayAsFunction.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\PassArrayAsFunction\obj\Debug\PassArrayAsFunction.exe
+D:\snehaRepo\.net core\PassArrayAsFunction\obj\Debug\PassArrayAsFunction.pdb
