@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\linq\bin\Debug\linq.exe.config
+D:\snehaRepo\.net core\linq\bin\Debug\linq.exe
+D:\snehaRepo\.net core\linq\bin\Debug\linq.pdb
+D:\snehaRepo\.net core\linq\obj\Debug\linq.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\linq\obj\Debug\linq.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\linq\obj\Debug\linq.exe
+D:\snehaRepo\.net core\linq\obj\Debug\linq.pdb
