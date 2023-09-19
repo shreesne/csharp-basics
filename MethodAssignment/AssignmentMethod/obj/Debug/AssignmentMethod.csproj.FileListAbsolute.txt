@@ -1,0 +1,14 @@
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\bin\Debug\AssignmentMethod.exe.config
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\bin\Debug\AssignmentMethod.exe
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\bin\Debug\AssignmentMethod.pdb
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\obj\Debug\AssignmentMethod.csproj.AssemblyReference.cache
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\obj\Debug\AssignmentMethod.csproj.CoreCompileInputs.cache
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\obj\Debug\AssignmentMethod.exe
+D:\snehaRepo\console applications\AssignmentMethod\AssignmentMethod\obj\Debug\AssignmentMethod.pdb
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\bin\Debug\AssignmentMethod.exe.config
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\bin\Debug\AssignmentMethod.exe
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\bin\Debug\AssignmentMethod.pdb
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\obj\Debug\AssignmentMethod.csproj.AssemblyReference.cache
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\obj\Debug\AssignmentMethod.csproj.CoreCompileInputs.cache
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\obj\Debug\AssignmentMethod.exe
+D:\snehaRepo\console applications\MethodAssignment\AssignmentMethod\obj\Debug\AssignmentMethod.pdb
