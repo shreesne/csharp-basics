@@ -1,0 +1,7 @@
+D:\snehaRepo\.net core\complexLinq\bin\Debug\complexLinq.exe.config
+D:\snehaRepo\.net core\complexLinq\bin\Debug\complexLinq.exe
+D:\snehaRepo\.net core\complexLinq\bin\Debug\complexLinq.pdb
+D:\snehaRepo\.net core\complexLinq\obj\Debug\complexLinq.csproj.AssemblyReference.cache
+D:\snehaRepo\.net core\complexLinq\obj\Debug\complexLinq.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net core\complexLinq\obj\Debug\complexLinq.exe
+D:\snehaRepo\.net core\complexLinq\obj\Debug\complexLinq.pdb
