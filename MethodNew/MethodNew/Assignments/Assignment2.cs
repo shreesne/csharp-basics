@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AssignmentMethod
+namespace MethodNew.Assignments
 {
     internal class Assignment2
     {
@@ -12,9 +12,10 @@ namespace AssignmentMethod
         {
             Console.Write("Enter some text: ");
             string input = Console.ReadLine();
-            Console.WriteLine("Expected result is with hastag:"+" "+"#"+input);
+            Console.WriteLine("Entered text is here with hashtags:"+" "+" #"+ input);
             string output = Console.ReadLine();
             return output;
+
         }
     }
 }

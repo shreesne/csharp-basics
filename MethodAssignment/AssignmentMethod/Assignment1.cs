@@ -10,11 +10,13 @@ namespace AssignmentMethod
     internal class Assignment1
     { 
 
-        public static string GetUserInput()
+        public static string GetUserInput1()
         {
             Console.Write("Enter some text: ");
             string input = Console.ReadLine();
-            return input;
+            Console.WriteLine("Entered text is here:"+input);
+            string output=Console.ReadLine();
+            return output;
         }
     }
 }

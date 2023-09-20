@@ -4,17 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AssignmentMethod
+namespace MethodNew.Assignments
 {
-    internal class Assignment2
+    internal class Assignment1
     {
-        public static string GetUserInput2()
+        public static string GetUserInput1()
         {
             Console.Write("Enter some text: ");
             string input = Console.ReadLine();
-            Console.WriteLine("Expected result is with hastag:"+" "+"#"+input);
-            string output = Console.ReadLine();
+            Console.WriteLine("Entered text is here:" + input);
+            string output= Console.ReadLine();
             return output;
+           
         }
     }
 }

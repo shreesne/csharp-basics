@@ -8,11 +8,21 @@ namespace AssignmentMethod
 {
     internal class Assignment3
     {
+        public static string startAssignment3()
+        {
+            string message1 = "please enter a number";
+            return GetUserInput(message1);
+
+        }
         public static string GetUserInput(string message)
         {
-            Console.WriteLine(message); 
-            string input=Console.ReadLine();    
-            return input;
+            Console.Write("Please enter a number :");
+            var result = Console.ReadLine();
+            Console.WriteLine("Entered number is here:" + result);
+            return result;
         }
+
+            
+        
     }
 }
