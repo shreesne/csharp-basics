@@ -4,16 +4,17 @@ namespace TestProject1;
 
 public class UnitTest1
 {
-    //[Fact]
-    //public void Test1()
-    //{ 
-    //  string fname = "Thomas";
-    //  string lname = "Payne";
-    //  string expected = "Payne,Thomas";
-    //  string actual= Assignment5.GetUserInputs(fname,lname);
-    //  Assert.Equal(expected, actual);
+    Assignment5 assignment5 = new Assignment5();
+    [Fact]
+    public void Test()
+    { 
+      string fname = "Thomas";
+      string lname = "Payne";
+      string expected = "Payne,Thomas";
+      string actual= assignment5.GetUserInputs(fname,lname);
+      Assert.Equal(expected, actual);
 
-    //}
+    }
 
     [Fact]
     public void Test1()
