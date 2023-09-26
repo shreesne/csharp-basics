@@ -12,6 +12,19 @@ namespace TicketCalculator
 
     public class TicketCalculator
     {
+        public bool CheckPlaceAvailability(string placeList, int placeNumber)
+        {
+            return placeList.Contains(placeNumber.ToString());
+
+
+        }
+        public string AddPlace(string placeList, int placeNumber)
+        {
+
+            placeList = placeList + Convert.ToString(placeNumber) + ",";
+            return placeList;
+
+        }
         public int PriceSetter(int age, string place)
         {
             int price = 0;
