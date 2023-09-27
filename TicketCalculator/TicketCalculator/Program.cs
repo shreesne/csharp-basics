@@ -19,12 +19,10 @@
         { 
             Console.Write("Enter your age: ");
             int age=int.Parse(Console.ReadLine());
-            Console.WriteLine();
             if(age>=0)
             {
                 Console.Write("Your prefernce to seat[yes/no]: ");
                 string place = Console.ReadLine();
-                Console.WriteLine();
                 if (place=="yes"||place=="no")
                 {
                     TicketCalculator obj = new TicketCalculator();
@@ -39,19 +37,14 @@
                     {
                         Console.WriteLine($"{placeNumber} is present to book.");
 
-                        placeList = obj.AddPlace(placeList, placeNumber);
+                      placeList = obj.AddPlace(placeList, placeNumber);
                     }
 
-
-                    //  placeList = obj.CheckPlaceAvailability(placeList, placeNumber);
-                    //var  bookedSeats= obj.AddPlace(placeList, placeNumber);
                     Console.WriteLine("Booked seats are :" + placeList);
                     var price = obj.PriceSetter(age, place);
                     Console.WriteLine($"Ticket price before tax:{price} SEK(kronor)");
-                    Console.WriteLine();
                     var priceAfterTax = obj.TaxCalculator(price);
                     Console.WriteLine($"Ticket price after tax:{priceAfterTax} SEK(kronor)");
-                    Console.WriteLine();
                 }
                 else
                 {
