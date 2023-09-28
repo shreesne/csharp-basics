@@ -1,0 +1,14 @@
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.AssemblyInfoInputs.cache
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.AssemblyInfo.cs
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.csproj.CoreCompileInputs.cache
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\bin\Debug\net6.0\TicketUserInput.exe
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\bin\Debug\net6.0\TicketUserInput.deps.json
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\bin\Debug\net6.0\TicketUserInput.runtimeconfig.json
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\bin\Debug\net6.0\TicketUserInput.dll
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\bin\Debug\net6.0\TicketUserInput.pdb
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.dll
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\refint\TicketUserInput.dll
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.pdb
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\TicketUserInput.genruntimeconfig.cache
+D:\snehaRepo\console applications\TicketNew\TicketUserInput\TicketUserInput\obj\Debug\net6.0\ref\TicketUserInput.dll

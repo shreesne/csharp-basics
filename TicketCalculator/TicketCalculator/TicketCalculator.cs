@@ -14,7 +14,7 @@ namespace TicketCalculator
     {
         public bool CheckPlaceAvailability(string placeList, int placeNumber)
         {
-            return placeList.Contains(","+placeNumber.ToString()+",");
+            return placeList.Contains((","+placeNumber + ",").ToString());
 
 
         }
