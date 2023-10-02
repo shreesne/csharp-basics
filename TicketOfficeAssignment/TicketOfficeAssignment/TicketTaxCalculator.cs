@@ -51,9 +51,6 @@ namespace TicketOfficeAssignment
 
             Console.WriteLine("1. Seated");
             Console.WriteLine("2. Standing");
-
-
-
             int choice;
             if (int.TryParse(Console.ReadLine(), out choice))
             {
@@ -89,8 +86,8 @@ namespace TicketOfficeAssignment
             placeList += $"{placeNumber},";
             return placeList;
         }
-
       
+
 
     }
 }

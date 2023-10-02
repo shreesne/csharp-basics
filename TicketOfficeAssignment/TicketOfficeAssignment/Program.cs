@@ -34,7 +34,6 @@
                 TicketTaxCalculator taxCalculator = new TicketTaxCalculator();
                 int age = taxCalculator.GetCustomerAge();
                 var place = taxCalculator.GetCustomerPreference();
-
                 Ticket ticket = new Ticket(age, place);
                 ticket.Age = age;
                 ticket.Place = place;

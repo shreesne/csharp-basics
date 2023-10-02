@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using static TicketOfficeAssignment.seatEnum;
@@ -22,21 +23,22 @@ namespace TicketOfficeAssignment
 
             public int Price()
             {
-                var place = Place.ToString().ToLower();
+
+            //  var place = Place.ToString().ToLower();
                 int price = 0;
-                if (Age > 0 && place == "seated" || place == "standing")
+                if (Age > 0 && Place== SeatPreference.Seated || Place == SeatPreference.Standing)
                 {
                     if (Age <= 11)
                     {
-                        return price = (place == "seated") ? 50 : 25;
+                        return price = (Place == SeatPreference.Seated) ? 50 : 25;
                     }
                     else if (Age >= 12 && Age <= 64)
                     {
-                        return price = (place == "seated") ? 170 : 110;
+                        return price = (Place == SeatPreference.Seated) ? 170 : 110;
                     }
                     if (Age >= 65)
                     {
-                        return price = (place == "seated") ? 100 : 60;
+                        return price = (Place == SeatPreference.Seated) ? 100 : 60;
                     }
                 }
                 return price;
@@ -49,14 +51,24 @@ namespace TicketOfficeAssignment
                 return tax;
             }
 
-            public int TicketNumberGenerator()
-            {
-                Random rnd = new Random();
-                int minVal = 1;
-                int maxVal = 8000;
-                return rnd.Next(minVal, maxVal + 1);
-            }
+           public Ticket(int number)
+        {
+            this.Number=number;
+            TicketNumberGenerator();
         }
 
-    
+        public int TicketNumberGenerator()
+        {
+            Random rnd = new Random();
+            int minVal = 1;
+            int maxVal = 8000;
+            return rnd.Next(minVal, maxVal + 1);
+        }
+
+
+    }
+
+
+
+
 }
