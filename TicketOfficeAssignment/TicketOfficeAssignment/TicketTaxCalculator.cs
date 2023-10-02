@@ -52,28 +52,23 @@ namespace TicketOfficeAssignment
             Console.WriteLine("1. Seated");
             Console.WriteLine("2. Standing");
 
-          //var preference = SeatPreference.Standing;
-            
+
 
             int choice;
             if (int.TryParse(Console.ReadLine(), out choice))
-      {
+            {
                 if (choice == 1)
                 {
-                    //preference = SeatPreference.Seated;
-                    // Console.WriteLine($"You selected {preference}.");
                     return SeatPreference.Seated;
                 }
                 else if (choice == 2)
                 {
-                    //onsole.WriteLine($"You selected {preference}.");
-                    // return preference;
                     return SeatPreference.Standing;
                 }
                 else
                 {
                     Console.WriteLine("please select your prefernce.");
-                   return GetCustomerPreference();
+                    return GetCustomerPreference();
                 }
             }
             else
@@ -81,27 +76,9 @@ namespace TicketOfficeAssignment
                 Console.WriteLine("please select your prefernce.");
                 return GetCustomerPreference();
             }
-         // return preference;
 
-
-            //string place = Console.ReadLine();
-            //string placeLower = place.ToLower();
-
-            //if (placeLower == "standing")
-            //{
-            //    return placeLower;
-            //}
-            //else if(placeLower=="seated")
-            //{
-            //    return placeLower;
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Invalid place preference");
-            //    return GetCustomerPreference();
-            //}
-            //return placeLower;
         }
+           
         public  bool CheckPlaceAvailability(string placeList, int placeNumber)
         {
             string searchNumber = $",{placeNumber},";
@@ -111,40 +88,6 @@ namespace TicketOfficeAssignment
         {
             placeList += $"{placeNumber},";
             return placeList;
-        }
-        public  int PriceSetter(int age, SeatPreference preference)
-        {
-            var place = preference.ToString().ToLower();
-            int price = 0;
-            if (age > 0 && place == "seated" || place == "standing")
-            {
-                if (age <= 11)
-                {
-                    price = (place == "seated") ? 50 : 25;
-                }
-                else if (age >= 12 && age <= 64)
-                {
-                    price = (place == "seated") ? 170 : 110;
-                }
-                if (age >= 65)
-                {
-                    price = (place == "seated") ? 100 : 60;
-                }
-            }
-
-            return price;
-        }
-        public  decimal TaxCalculator(int Price)
-        {
-            decimal tax = Price + (Price * 6 / 100);
-            return tax;
-        }
-        public  int TicketNumberGenerator()
-        {
-            Random rnd = new Random();
-            int minVal = 1;
-            int maxVal = 8000;
-            return rnd.Next(minVal, maxVal + 1);
         }
 
       

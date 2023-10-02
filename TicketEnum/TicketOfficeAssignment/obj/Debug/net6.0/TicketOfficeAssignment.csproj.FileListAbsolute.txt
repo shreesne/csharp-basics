@@ -40,3 +40,17 @@ D:\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\refint\TicketOfficeAssignm
 D:\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.pdb
 D:\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.genruntimeconfig.cache
 D:\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\ref\TicketOfficeAssignment.dll
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\bin\Debug\net6.0\TicketOfficeAssignment.exe
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\bin\Debug\net6.0\TicketOfficeAssignment.deps.json
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\bin\Debug\net6.0\TicketOfficeAssignment.runtimeconfig.json
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\bin\Debug\net6.0\TicketOfficeAssignment.dll
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\bin\Debug\net6.0\TicketOfficeAssignment.pdb
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.AssemblyInfoInputs.cache
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.AssemblyInfo.cs
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.dll
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\refint\TicketOfficeAssignment.dll
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.pdb
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\TicketOfficeAssignment.genruntimeconfig.cache
+D:\snehaRepo\.net console\TicketEnum\TicketOfficeAssignment\obj\Debug\net6.0\ref\TicketOfficeAssignment.dll
