@@ -32,12 +32,13 @@
             {
                 TicketTaxCalculator taxCalculator = new TicketTaxCalculator();
                 int age = taxCalculator.GetCustomerAge();
-                string place = taxCalculator.GetCustomerPreference();
+
+                var place = taxCalculator.GetCustomerPreference();
                 int price = taxCalculator.PriceSetter(age, place);
                 decimal tax = taxCalculator.TaxCalculator(price);
                 int ticketNumber = taxCalculator.TicketNumberGenerator();
 
-                if (place == "seated")
+                if (place.ToString().ToLower() == "seated")
                 {
                     Console.Write("Please check for seat number:");
                     int placeNumber = int.Parse(Console.ReadLine());

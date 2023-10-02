@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TicketOfficeAssignment.seatEnum;
 
 namespace TicketOfficeAssignment
 {
@@ -44,26 +45,62 @@ namespace TicketOfficeAssignment
             return age;
         }
 
-        public  string GetCustomerPreference()
+        public SeatPreference GetCustomerPreference()
         {
-            Console.Write("Select [standing]ticket/[seated] ticket :");
-            string place = Console.ReadLine();
-            string placeLower = place.ToLower();
+            Console.WriteLine("Please enter your choice as 1 OR 2 :");
 
-            if (placeLower == "standing")
-            {
-                return placeLower;
-            }
-            else if(placeLower=="seated")
-            {
-                return placeLower;
+            Console.WriteLine("1. Seated");
+            Console.WriteLine("2. Standing");
+
+          //var preference = SeatPreference.Standing;
+            
+
+            int choice;
+            if (int.TryParse(Console.ReadLine(), out choice))
+      {
+                if (choice == 1)
+                {
+                    //preference = SeatPreference.Seated;
+                    // Console.WriteLine($"You selected {preference}.");
+                    return SeatPreference.Seated;
+                }
+                else if (choice == 2)
+                {
+                    //onsole.WriteLine($"You selected {preference}.");
+                    // return preference;
+                    return SeatPreference.Standing;
+                }
+                else
+                {
+                    Console.WriteLine("please select your prefernce.");
+                   return GetCustomerPreference();
+                }
             }
             else
             {
-                Console.WriteLine("Invalid place preference");
+                Console.WriteLine("please select your prefernce.");
                 return GetCustomerPreference();
             }
-            return placeLower;
+         // return preference;
+
+
+            //string place = Console.ReadLine();
+            //string placeLower = place.ToLower();
+
+            //if (placeLower == "standing")
+            //{
+            //    return placeLower;
+            //}
+            //else if(placeLower=="seated")
+            //{
+            //    return placeLower;
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid place preference");
+            //    return GetCustomerPreference();
+            //}
+            //return placeLower;
         }
         public  bool CheckPlaceAvailability(string placeList, int placeNumber)
         {
@@ -75,8 +112,9 @@ namespace TicketOfficeAssignment
             placeList += $"{placeNumber},";
             return placeList;
         }
-        public  int PriceSetter(int age, string place)
+        public  int PriceSetter(int age, SeatPreference preference)
         {
+            var place = preference.ToString().ToLower();
             int price = 0;
             if (age > 0 && place == "seated" || place == "standing")
             {
@@ -108,6 +146,8 @@ namespace TicketOfficeAssignment
             int maxVal = 8000;
             return rnd.Next(minVal, maxVal + 1);
         }
+
+      
 
     }
 }
