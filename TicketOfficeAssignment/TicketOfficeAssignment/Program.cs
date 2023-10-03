@@ -30,7 +30,6 @@
             }
             static void BookTicket()
             {
-
                 TicketTaxCalculator taxCalculator = new TicketTaxCalculator();
                 int age = taxCalculator.GetCustomerAge();
                 var place = taxCalculator.GetCustomerPreference();
@@ -39,7 +38,8 @@
                 ticket.Place = place;
                 int price = ticket.Price();
                 decimal tax = ticket.Tax();
-                int ticketNumber = ticket.TicketNumberGenerator();
+                Ticket ticket1 = new Ticket();
+                int ticketNumber=ticket1.Number;
 
                 if (place.ToString().ToLower() == "seated")
                 {
@@ -52,7 +52,6 @@
                         placeList = taxCalculator.AddPlace(placeList, placeNumber);
                         ticket.Price();
                         ticket.Tax();
-                        ticket.TicketNumberGenerator();
                         Console.WriteLine($"TicketDetails------>AGE:{age} years,PLACE:{place},SEAT NUMBER:{placeNumber},PRICE :{price},TOTAL(6%tax):{tax},TICKET NUMBER: {ticketNumber}");
                         Console.WriteLine();
                         Console.WriteLine($"Booked seats are :{placeList}");
@@ -67,7 +66,6 @@
                 {
                     ticket.Price();
                     ticket.Tax();
-                    ticket.TicketNumberGenerator();
                     Console.WriteLine($"TicketDetails------>AGE:{age} years,PLACE:{place},PRICE :{price},TOTAL(6%tax):{tax},TICKET NUMBER: {ticketNumber}");
                 }
             }   

@@ -86,7 +86,14 @@ namespace TicketOfficeAssignment
             placeList += $"{placeNumber},";
             return placeList;
         }
-      
+
+        public static int TicketNumberGenerator()
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(1, 8000);
+            return randomNumber;
+
+        }
 
 
     }

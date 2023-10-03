@@ -6,9 +6,11 @@ using System.Text;
 using System.Threading.Tasks;
 using static TicketOfficeAssignment.seatEnum;
 
+
 namespace TicketOfficeAssignment
 {
-        public class Ticket
+    
+    public class Ticket
         {
             public int Age { get; set; }
             public int Number { get; set; }
@@ -50,25 +52,14 @@ namespace TicketOfficeAssignment
                 decimal tax = price1 + (price1 * 6 / 100);
                 return tax;
             }
-
-           public Ticket(int number)
+        public Ticket()
         {
-            this.Number=number;
-            TicketNumberGenerator();
+            Number = TicketTaxCalculator.TicketNumberGenerator();
+            
         }
-
-        public int TicketNumberGenerator()
-        {
-            Random rnd = new Random();
-            int minVal = 1;
-            int maxVal = 8000;
-            return rnd.Next(minVal, maxVal + 1);
-        }
-
+        
 
     }
-
-
 
 
 }
