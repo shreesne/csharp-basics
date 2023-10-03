@@ -53,7 +53,9 @@ namespace TicketOfficeAssignment
                 return tax;
             }
         public Ticket()
-        {
+        {   //"use it when TicketNumberGenerator method is not static creating object instance"//
+           // TicketTaxCalculator calc = new TicketTaxCalculator();
+           //Number=calc.TicketNumberGenerator()
             Number = TicketTaxCalculator.TicketNumberGenerator();
             
         }
