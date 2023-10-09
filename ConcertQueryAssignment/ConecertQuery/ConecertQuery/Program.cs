@@ -25,7 +25,8 @@ namespace ConecertQuery
                         DateTime currentDate = DateTime.Now;
                         //Filter and order the concerts by DateTime
                         List<Concert> filteredConcerts = concerts
-                       .Where(concert => Convert.ToDateTime(concert.Date) >= currentDate)
+                      .Where(concert => Convert.ToDateTime(concert.Date) >= currentDate)
+                  //  .Where(concert => concert.Date == currentDate)
                        .OrderBy(concert => concert.Date)
                        .ToList();
 
@@ -61,7 +62,7 @@ namespace ConecertQuery
                     case 3:
                         DateTime startDate = new DateTime(2024, 01, 01, 0, 0, 0);
                         DateTime endDate = new DateTime(2024, 12, 31, 23, 59, 59);
-                        List<Concert> concertsIn2024 = GetConcertsIn2024(concerts);
+                        List<Concert> concertsIn2024= concerts.FindAll(concert => concert.Date >= startDate && concert.Date <= endDate);
                         foreach (var concert in concertsIn2024)
                         {
                             Console.WriteLine($"Id: {concert.Id}");
@@ -74,11 +75,6 @@ namespace ConecertQuery
 
                         }
                         
-                        List<Concert> GetConcertsIn2024(List<Concert> concertsIn2024)
-                        {
-                            List<Concert> concerts2024 = concerts.FindAll(concert => concert.Date >= startDate && concert.Date <= endDate);
-                            return concerts2024;
-                        }
                         break;
                     case 4:
                         concerts.Sort((c1, c2) => c2.FullCapacitySales.CompareTo(c1.FullCapacitySales));

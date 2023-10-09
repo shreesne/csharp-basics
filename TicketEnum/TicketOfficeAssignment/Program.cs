@@ -6,7 +6,6 @@ namespace TicketOfficeAssignment
      class Program
     {
         public static string placeList = "";
-        //  public static List<Ticket> ticketList = new List<Ticket>();
 
         TicketSalesManager ticketSalesManager = null;
         public Program()
@@ -61,7 +60,7 @@ namespace TicketOfficeAssignment
                 }
                 else if (choice == 4)
                 {
-                    Console.WriteLine("Thank you for using the Ticket Booking System. Goodbye!");
+                    Console.WriteLine("Thank you for Booking !");
                     break;
                 }
                 else
