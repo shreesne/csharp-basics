@@ -60,9 +60,9 @@ namespace ConecertQuery
                         }
                         break;
                     case 3:
-                        DateTime startDate = new DateTime(2024, 01, 01, 0, 0, 0);
-                        DateTime endDate = new DateTime(2024, 12, 31, 23, 59, 59);
-                        List<Concert> concertsIn2024= concerts.FindAll(concert => concert.Date >= startDate && concert.Date <= endDate);
+                        List<Concert> concertsIn2024 = concerts
+                                   .Where(concert => concert.Date.Year == 2024)
+                                   .ToList();
                         foreach (var concert in concertsIn2024)
                         {
                             Console.WriteLine($"Id: {concert.Id}");
@@ -77,20 +77,22 @@ namespace ConecertQuery
                         
                         break;
                     case 4:
-                        concerts.Sort((c1, c2) => c2.FullCapacitySales.CompareTo(c1.FullCapacitySales));
-                        Console.WriteLine("Top 5 Concerts by Full Capacity Sales:");
-                        for (int i = 0; i < Math.Min(5, concerts.Count); i++)
+                        var topFiveSales = concerts
+                                 .OrderByDescending(concert => concert.FullCapacitySales)
+                                 .Take(5);
+                        foreach (var concert in topFiveSales)
                         {
-                            Console.WriteLine($"Id: {concerts[i].Id}");
-                            Console.WriteLine($"DateTime: {concerts[i].Date}");
-                            Console.WriteLine($"Performer: {concerts[i].Performer}");
-                            Console.WriteLine($"BeginsAt: {concerts[i].BeginsAt}");
-                            Console.WriteLine($"FullCapacitySales: {concerts[i].FullCapacitySales}");
-                            Console.WriteLine($"ReducedVenue: {concerts[i].ReducedVenue}");
+                            Console.WriteLine($"Id: {concert.Id}");
+                            Console.WriteLine($"DateTime: {concert.Date}");
+                            Console.WriteLine($"Performer: {concert.Performer}");
+                            Console.WriteLine($"BeginsAt: {concert.BeginsAt}");
+                            Console.WriteLine($"FullCapacitySales: {concert.FullCapacitySales}");
+                            Console.WriteLine($"ReducedVenue: {concert.ReducedVenue}");
                             Console.WriteLine();
 
+
                         }
-                            break;
+                        break;
                     case 5:
 
                         List<Concert> fridayConcerts = concerts
