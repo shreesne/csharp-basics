@@ -1,0 +1,17 @@
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\ConecertQuery.exe
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\ConecertQuery.deps.json
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\ConecertQuery.runtimeconfig.json
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\ConecertQuery.dll
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\ConecertQuery.pdb
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.csproj.AssemblyReference.cache
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.AssemblyInfoInputs.cache
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.AssemblyInfo.cs
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.csproj.CopyComplete
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.dll
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\refint\ConecertQuery.dll
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.pdb
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ConecertQuery.genruntimeconfig.cache
+D:\snehaRepo\.net console\ConcertQueryAssignment\ConecertQuery\ConecertQuery\obj\Debug\net6.0\ref\ConecertQuery.dll
