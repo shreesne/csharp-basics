@@ -75,26 +75,23 @@ namespace TicketOfficeAssignment
             }
 
         }
-           
-        public  bool CheckPlaceAvailability(string placeList, int placeNumber)
+
+        public bool CheckPlaceAvailability(string placeList, int placeNumber)
         {
-            string searchNumber = $",{placeNumber},";
-            return !placeList.Contains(searchNumber);
+
+            char delimiter = ','; // The space character as the delimiter
+            string[] parts = placeList.Split(delimiter);
+            return !parts.Any(i => i == placeNumber.ToString());
+
+            // string searchNumber = $",{placeNumber},";
+            //return !placeList.Contains(searchNumber);
         }
-        public  string AddPlace(string placeList, int placeNumber)
+        public string AddPlace(string placeList, int placeNumber)
         {
             placeList += $"{placeNumber},";
             return placeList;
         }
-
-        public static int TicketNumberGenerator()
-        {
-            Random random = new Random();
-            int randomNumber = random.Next(1, 8000);
-            return randomNumber;
-
-        }
-
+       
 
     }
 }

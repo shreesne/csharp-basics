@@ -18,8 +18,9 @@ namespace TicketOfficeAssignment
 
             public Ticket(int age, SeatPreference place)
             {
-                this.Age = age;
-                this.Place = place;
+                        Number = TicketSalesManager.GenerateTicketNumber();
+                        this.Age = age;
+                        this.Place = place;
             }
 
 
@@ -53,10 +54,8 @@ namespace TicketOfficeAssignment
                 return tax;
             }
         public Ticket()
-        {   //"use it when TicketNumberGenerator method is not static creating object instance"//
-           // TicketTaxCalculator calc = new TicketTaxCalculator();
-           //Number=calc.TicketNumberGenerator()
-            Number = TicketTaxCalculator.TicketNumberGenerator();
+        { 
+          TicketSalesManager.GenerateTicketNumber();
             
         }
         
