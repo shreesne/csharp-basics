@@ -36,10 +36,6 @@ namespace TicketOfficeAssignment
             if (ticketToRemove != null)
             {
                 ticketList.Remove(ticketToRemove);
-                //foreach (var ticket in ticketList)
-                //{
-                //   Console.WriteLine($"Age: {ticket.Age}, Ticket Number: {ticket.Number}, Place: {ticket.Place}");
-                //}
                 return true;
             }
             else

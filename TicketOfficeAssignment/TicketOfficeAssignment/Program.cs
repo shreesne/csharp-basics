@@ -89,7 +89,8 @@
                 {
                     ticket.Price();
                     ticket.Tax();
-                   Console.WriteLine($"TicketDetails------>AGE:{age} years,PLACE:{place},PRICE :{price},TOTAL(6%tax):{tax}");
+                    ticketSalesManager.AddTicket(ticket);
+                    Console.WriteLine($"TicketDetails------>AGE:{age} years,PLACE:{place},PRICE :{price},TOTAL(6%tax):{tax}");
                     Console.WriteLine($"Generated ticket numbers are :{ticket.Number}");
 
                 }
