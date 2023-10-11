@@ -1,0 +1,14 @@
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\bin\Debug\net6.0\ExceptionAssignment.exe
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\bin\Debug\net6.0\ExceptionAssignment.deps.json
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\bin\Debug\net6.0\ExceptionAssignment.runtimeconfig.json
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\bin\Debug\net6.0\ExceptionAssignment.dll
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\bin\Debug\net6.0\ExceptionAssignment.pdb
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.AssemblyInfoInputs.cache
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.AssemblyInfo.cs
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.dll
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\refint\ExceptionAssignment.dll
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.pdb
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ExceptionAssignment.genruntimeconfig.cache
+D:\snehaRepo\.net console\ExceptionAssignment\ExceptionAssignment\ExceptionAssignment\obj\Debug\net6.0\ref\ExceptionAssignment.dll
