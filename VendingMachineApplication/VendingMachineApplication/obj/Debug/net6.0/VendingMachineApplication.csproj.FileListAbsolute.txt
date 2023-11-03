@@ -1,0 +1,28 @@
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.AssemblyInfoInputs.cache
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.AssemblyInfo.cs
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.csproj.CoreCompileInputs.cache
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.exe
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.deps.json
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.runtimeconfig.json
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.dll
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.pdb
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.dll
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\refint\VendingMachineApplication.dll
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.pdb
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.genruntimeconfig.cache
+D:\snehaRepo\.net console\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\ref\VendingMachineApplication.dll
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.exe
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.deps.json
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.runtimeconfig.json
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.dll
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\bin\Debug\net6.0\VendingMachineApplication.pdb
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.AssemblyInfoInputs.cache
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.AssemblyInfo.cs
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.csproj.CoreCompileInputs.cache
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.dll
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\refint\VendingMachineApplication.dll
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.pdb
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\VendingMachineApplication.genruntimeconfig.cache
+D:\snehaRepo\Lexicon\VendingMachineApplication\VendingMachineApplication\obj\Debug\net6.0\ref\VendingMachineApplication.dll
