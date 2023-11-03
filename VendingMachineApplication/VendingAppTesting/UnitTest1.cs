@@ -1,3 +1,4 @@
+using Microsoft.VisualStudio.TestPlatform.Utilities;
 using System.Collections.Generic;
 using VendingMachineApplication.Model;
 using VendingMachineApplication.Service;
@@ -80,13 +81,48 @@ namespace VendingAppTesting
             void EndTransaction_ExactChange_ReturnsEmptyDictionary()
             {
                 Dictionary<int,int> dict1 = new Dictionary<int, int> { { 10, 0 }, { 5, 0 }, { 1, 0 } };
-                Dictionary<int, int> dict2 = new Dictionary<int, int> { { 10, 2 }, { 5, 1 }, { 1, 10 } };
+                Dictionary<int, int> dict2 = new Dictionary<int, int> { { 10, 0 }, { 5, 0 }, { 1, 0 } };
                 bool overwriteExistingKeys = true ;
                 var change = machineService.EndTransactions(dict1,dict2, overwriteExistingKeys);
-                // Assert
-              
+                var expected = new Dictionary<int, int>
+                  {
+                     { 10, 0 },
+                     { 5, 0},
+                     { 1,0 }
+                  };
+
+                Assert.Equal(expected, change);
             }
+            [Fact]
+            void EndTransaction_EnoughPayment_ReturnsChange()
+            {
+                Dictionary<int, int> dict1 = new Dictionary<int, int> { { 10, 0 }, { 5, 0}, { 1, 0 } };
+                Dictionary<int, int> dict2 = new Dictionary<int, int> { { 10, 1 }, { 5, 1 }, { 1, 5 } };
+                bool overwriteExistingKeys = true;
+                // Act
+                var change = machineService.EndTransactions(dict1,dict2,overwriteExistingKeys);
+                var expected = new Dictionary<int, int>
+                  {
+                     { 10, 1},
+                     { 5, 1},
+                     { 1,5}
+                  };
+                Assert.Equal(expected, change);
+            }
+        }
+        [Fact]
+        public void TestReturnChange()
+        {
+            machineService.InsertMoney(500);
+            Product product = new Drink("D1", "Coffee", 50, "Chocolate");
+            var purchasedProduct = machineService.Purchase("D1");
+           int total= machineService.CalculateMoneyPoolTotal();
+            int price=purchasedProduct.Price;
+            int result = total - price;
+            Assert.Equal(450, result);
+
 
         }
+
     }
 }
