@@ -14,21 +14,25 @@ namespace LawnMowerRental
         public DateTime RentalDate { get; set; }
         public DateTime ReturnDate { get; set; }
 
-        
+        public List<LawnMower> lawnMowers = new List<LawnMower>();
+
+     
+
 
         public void RentalRecord()
-         {
+        {
             Console.WriteLine("Enter rental date (yyyy-MM-dd):");
             RentalDate = DateTime.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter return date (yyyy-MM-dd):");
             ReturnDate = DateTime.Parse(Console.ReadLine());
-         }
+        }
+
+
         public int RentedDays
         {
             get
             {
-                // Calculate the number of days between RentalDate and ReturnDate
                 TimeSpan rentalPeriod = ReturnDate - RentalDate;
                 return rentalPeriod.Days;
             }

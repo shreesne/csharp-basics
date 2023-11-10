@@ -1,14 +1,18 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
+using System.Xml.Linq;
 
 namespace LawnMowerRental
 {
   public class Program
     {
-        static List<LawnMower> lawnMowers = new List<LawnMower>();
         static List<Customer> customers = new List<Customer>();
-       static  List<Rental> rentals = new List<Rental>();
+
+        static List<LawnMower> lawnMowers = new List<LawnMower>();
+        static  List<Rental> rentals = new List<Rental>();
         static void Main(string[] args)
         {
+            
             InitializeLawnMowers();
             while (true)
             {
@@ -33,8 +37,8 @@ namespace LawnMowerRental
                             CheckInventory();
                             break;
                         case 4:
-                           // Record();
-                            Environment.Exit(0);
+                           CustomerRecord();
+                         //   Environment.Exit(0);
                             break;
                         default:
                             Console.WriteLine("Invalid choice. Please select a valid option.");
@@ -52,7 +56,7 @@ namespace LawnMowerRental
             // Initialize the list of lawn mowers with 15 available mowers
             for (int i = 1; i <= 15; i++)
             {
-                lawnMowers.Add(new LawnMower { Model = $"LawnMower {i}",IsAvailable = true });
+                lawnMowers.Add(new LawnMower { Model = $"LawnMower {i}", IsAvailable = true });
             }
         }
 
@@ -61,16 +65,17 @@ namespace LawnMowerRental
             Console.Write("Enter customer name: ");
             string name = Console.ReadLine();
             Console.Write("Enter customer phone number: ");
-           string phoneNumber = Console.ReadLine();
+            string phoneNumber = Console.ReadLine();
             customers.Add(new Customer { Name = name, PhoneNumber = phoneNumber });
-          //  rentals.Add(new Rental { Customer = customers[0], Mower = lawnMowers[0] });
             Console.WriteLine("Customer registered successfully.");
         }
 
         static void RegisterRental()
         {
+
+            LawnMower lawnMower = new LawnMower();
             Console.Write("Enter customer phone number: ");
-           string phoneNumber = Console.ReadLine();
+            string phoneNumber = Console.ReadLine();
             Customer customer = customers.Find(c => c.PhoneNumber == phoneNumber);
             if (customer != null)
             {
@@ -93,18 +98,10 @@ namespace LawnMowerRental
                 {
                     Console.WriteLine("Invalid input. Please select a valid lawn mower.");
                 }
-                LawnMower lawnMower = new LawnMower();
                 lawnMower.RentalRecord();
                 int rentedDays =lawnMower.RentedDays;
                 Console.WriteLine($"Number of rented days: {rentedDays}");
-              for(int i = 0;i < rentals.Count;i++)
-                {
-                    rentals.Add(new Rental { Customer = customers[i], Mower = lawnMowers[i] });
-
-                }
-              Console.WriteLine($"");
-
-
+             
             }
             else
             {
@@ -121,8 +118,19 @@ namespace LawnMowerRental
             }
         }
 
-       
-        
+     static void CustomerRecord()
+        {   Rental rental1=new Rental();
+            rental1.Customer = customers[0];
+
+            Console.WriteLine("Customer list with LawnMower Number :");
+
+            foreach (var rental in rentals)
+            {
+                Console.WriteLine($"Customer Name: {rental.Customer.Name}");
+                Console.WriteLine($"Lawn Mower Model: {rental.Mower.Model}");
+                Console.WriteLine();
+            }
+        }
 
     }
 }

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a string of numbers separated by spaces:");
+            Console.WriteLine("Enter a string of numbers separated by comma:");
             string input = Console.ReadLine();
 
             List<int> sortedNumbers =WordsDTO.ExtractAndSortNumbers(input);

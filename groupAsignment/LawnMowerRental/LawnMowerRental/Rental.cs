@@ -9,12 +9,7 @@ namespace LawnMowerRental
 
     public class Rental
     {
-       public List<Rental> rentals = new List<Rental>();
-
         public Customer Customer { get; set; }
         public LawnMower Mower { get; set; }
-
-     
-
     }
 }

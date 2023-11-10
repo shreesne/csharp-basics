@@ -15,7 +15,7 @@ namespace ExceptionAssignment
        public static List<int> ExtractAndSortNumbers(string input)
         {
             List<int> numbers = new List<int>();
-            string[] numberStrings=input.Split(' ');
+            string[] numberStrings=input.Split(',');
  
             foreach (string numString in numberStrings)
             {
