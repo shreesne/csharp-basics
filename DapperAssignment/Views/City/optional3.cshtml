@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Country>
+@{
+    ViewBag.Title = "EU countries with life expectancy";
+}
+<h2>EU countries with life expectancy</h2>
+
+<table>
+    <tr>
+        <td>Code</td>
+        <td>Name</td>
+        <td>Continent</td>
+        <td>LifeExpectancy</td>
+    </tr>
+
+    @foreach (Country country in @Model)
+    {
+        <tr>
+            <td>@country.Code </td>
+            <td>@country.Name</td>
+            <td>@country.Continent</td>
+            <td>@country.LifeExpectancy</td>
+        </tr>
+    }
+</table>

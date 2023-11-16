@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wt+10slON/YOzVe0Hj/QmgEyWoTm7wRQmg+cCRumuvC62VsVMtf18X/YHMDnv/O7kpBWhMWWvIGjO1QsalVObA==",
+  "success": true,
+  "projectFilePath": "D:\\snehaRepo\\.net console\\DapperAssignment\\DapperAssignment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sneha\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
+    "C:\\Users\\sneha\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512"
+  ],
+  "logs": []
+}

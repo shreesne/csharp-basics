@@ -1,0 +1,25 @@
+﻿@model List<City>
+@{
+
+    ViewBag.Title = "List of all cities";
+}
+<h2>List of all cities</h2>
+
+<table>
+    <tr>
+        <td>Id </td>
+        <td>City Name</td>
+        <td>CountryCode</td>
+
+    </tr>
+
+    @foreach (City city in @Model)
+    {
+        <tr>
+            <td>@city.Id </td>
+            <td>@city.Name</td>
+            <td>@city.CountryCode</td>
+        </tr>
+    }
+
+</table>
